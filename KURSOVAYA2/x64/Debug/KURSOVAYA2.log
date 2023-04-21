@@ -1,0 +1,72 @@
+﻿  FileName.cpp
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(88,34): error C2084: функция "std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> random_unit_vectors(int,int)" уже имеет текст реализации
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(34,34): message : см. предыдущее определение "random_unit_vectors"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(105,11): warning C4244: инициализация: преобразование "Eigen::Index" в "int", возможна потеря данных
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(120,20): error C2065: random_unit_vectors: необъявленный идентификатор
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): error C2672: "begin": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1589,27): message : может быть "_Ty *std::begin(_Ty (&)[_Size]) noexcept"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : '_Ty *std::begin(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> (__cdecl *)(int,int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1571,30): message : или       "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : Сбой при специализации функции-шаблона "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : Со следующими аргументами шаблона:
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : "_Container=std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> (__cdecl *)(int,int)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1565,30): message : или       "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : Сбой при специализации функции-шаблона "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : Со следующими аргументами шаблона:
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : "_Container=std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> (__cdecl *)(int,int)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\initializer_list(55,35): message : или       "const _Elem *std::begin(std::initializer_list<_Elem>) noexcept"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> (__cdecl *)(int,int)'
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): error C2672: "end": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1594,27): message : может быть "_Ty *std::end(_Ty (&)[_Size]) noexcept"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : '_Ty *std::end(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> (__cdecl *)(int,int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1583,30): message : или       "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : Сбой при специализации функции-шаблона "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : Со следующими аргументами шаблона:
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : "_Container=std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> (__cdecl *)(int,int)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1577,30): message : или       "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : Сбой при специализации функции-шаблона "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : Со следующими аргументами шаблона:
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : "_Container=std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> (__cdecl *)(int,int)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\initializer_list(60,35): message : или       "const _Elem *std::end(std::initializer_list<_Elem>) noexcept"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,28): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> (__cdecl *)(int,int)'
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,37): error C3536: <begin>$L0: не может использоваться до инициализации
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,37): error C3536: <end>$L0: не может использоваться до инициализации
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(121,35): error C2100: недопустимое косвенное обращение
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): error C2672: "begin": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1589,27): message : может быть "_Ty *std::begin(_Ty (&)[_Size]) noexcept"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : '_Ty *std::begin(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'const int'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1571,30): message : или       "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : Сбой при специализации функции-шаблона "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : Со следующими аргументами шаблона:
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : "_Container=int"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1565,30): message : или       "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : Сбой при специализации функции-шаблона "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : Со следующими аргументами шаблона:
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : "_Container=const int"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\initializer_list(55,35): message : или       "const _Elem *std::begin(std::initializer_list<_Elem>) noexcept"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'const int'
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): error C2672: "end": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1594,27): message : может быть "_Ty *std::end(_Ty (&)[_Size]) noexcept"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : '_Ty *std::end(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'const int'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1583,30): message : или       "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : Сбой при специализации функции-шаблона "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : Со следующими аргументами шаблона:
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : "_Container=int"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1577,30): message : или       "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : Сбой при специализации функции-шаблона "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : Со следующими аргументами шаблона:
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : "_Container=const int"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\initializer_list(60,35): message : или       "const _Elem *std::end(std::initializer_list<_Elem>) noexcept"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,34): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'const int'
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,39): error C3536: <begin>$L1: не может использоваться до инициализации
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,39): error C3536: <end>$L1: не может использоваться до инициализации
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(122,37): error C2100: недопустимое косвенное обращение
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(129,27): error C2664: "std::vector<double,std::allocator<double>> find_furthest_point(std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>)": невозможно преобразовать аргумент 2 из "std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> (__cdecl *)(int,int)" в "std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(129,55): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(61,16): message : см. объявление "find_furthest_point"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(129,27): message : при попытке сопоставить список аргументов "(std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>, std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> (__cdecl *)(int,int))"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(130,5): error C2530: coord: ссылки должны быть инициализированы
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(130,5): error C3531: coord: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(130,28): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(130,5): error C3536: furthest_point: не может использоваться до инициализации
+C:\Users\slava\source\repos\KURSOVAYA2\KURSOVAYA2\FileName.cpp(130,44): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
